@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Source+Serif+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient( to top, black, #36393f );
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#cabecalho-menu-imagem{
+    width:  50px;
+    height: 50px;
+}
+a:hover #cabecalho-menu-imagem {
+    transform: scale(1.2); /* aumenta o tamanho da imagem em 20% */
+    border: 2px solid white; /* adiciona uma borda branca de 2px */
+  }
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-1-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+.conteudo-4-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+.site1, .site2, .site3, .site4, .site5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+#site1-conteudo-imagem, #site2-conteudo-imagem, #site3-conteudo-imagem, #site4-conteudo-imagem, #site5-conteudo-imagem{
+    width:  270px;
+    height: 270px;
+    margin-top: 20px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+
+#site1-conteudo-imagem:hover, #site2-conteudo-imagem:hover, #site3-conteudo-imagem:hover, #site4-conteudo-imagem:hover, #site5-conteudo-imagem:hover{
+    transform: scale(1.2); /* aumenta o tamanho da imagem em 20% */
+    border: 2px solid white; /* adiciona uma borda branca de 2px */
+}
+
+#site1-conteudo-link, #site2-conteudo-link, #site3-conteudo-link, #site4-conteudo-link, #site5-conteudo-link{
+    font-family: 'Cutive Mono', monospace;
+    color: #FFF2E7;
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    font-size: 12px;
+    font-family: 'Cutive Mono', monospace;
+    color: #FFF2E7;
+}
+#rodape-nome{
+    margin-top: 20px;
+    margin-right: 10px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+}
+
+
+#cabecalho-titulo, #site1-conteudo-nome, #site2-conteudo-nome, #site3-conteudo-nome, #site4-conteudo-nome, #site5-conteudo-nome{
+    font-family: 'Source Serif Pro', serif;
+    color: #FFF2E7;
+}
+
+#site1-conteudo-link:hover, #site2-conteudo-link:hover, #site3-conteudo-link:hover, #site4-conteudo-link:hover, #site5-conteudo-link:hover{
+    transform: scale(1.2);
+}
